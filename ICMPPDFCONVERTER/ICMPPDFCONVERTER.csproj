@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+	  <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+	<ItemGroup>
+		<!-- Remove or adjust the version if necessary -->
+		<PackageReference Include="PdfiumViewer" Version="2.13.0" />
+		<PackageReference Include="Syncfusion.PdfViewer.WPF" Version="21.1.35" />
+		<PackageReference Include="System.Windows.Forms" Version="4.0.0" />
+	</ItemGroup>
+</Project>
